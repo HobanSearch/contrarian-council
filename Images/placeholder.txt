@@ -1,0 +1,20 @@
+You'll need to create the following images for the Contrarian Council website:
+
+1. logo.png - The Council Seal featuring seven stars arranged in the pattern of the Big Dipper
+2. about-illustration.png - An illustration representing the Council's vision
+3. agent-1.png - School of Cycles representative
+4. agent-2.png - School of Intrinsic Value representative
+5. agent-3.png - School of Human Folly representative
+6. agent-4.png - School of Creative Destruction representative
+7. agent-5.png - School of Black Swans representative
+8. agent-6.png - School of Macro Forces representative
+9. agent-7.png - School of Behavioral Gaps representative
+10. chancellor.png - The Chancellor image
+
+These should follow the cosmic imagery guidelines with deep space backgrounds, nebulae, stars, and cosmic phenomena. Use the brand colors:
+- Cosmic Blue (#0a0a18)
+- Nebula Purple (#6a4dff)
+- Celestial Blue (#35a6ff)
+- Oracle Pink (#ff4daa)
+- Void Black (#000000)
+- Stellar White (#f0f0ff)
