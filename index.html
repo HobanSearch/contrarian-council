@@ -1022,7 +1022,8 @@
                 <div class="signup-content">
                     <h2>Become an Initiate</h2>
                     <p>The Contrarian Council operates through ancient hierarchies of wisdom. As an Initiate, you'll gain access to perspectives that challenge market consensus and illuminate opportunities others cannot see. Join now to secure your place among the first to receive the Council's insights when they awAIken.</p>
-                    <form id="waitlist-form" class="waitlist-form">
+                    <form id="waitlist-form" class="waitlist-form" action="https://app.supereasyforms.com/form/YOUR_FORM_ID" method="POST">
+                        <input type="hidden" name="_form_name" value="Contrarian Council Signup">
                         <div class="form-group">
                             <input type="email" id="email" name="email" placeholder="Your email address" required>
                         </div>
@@ -1075,6 +1076,7 @@
         </div>
     </div>
 
+    <script src="form-handler.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             // Animate elements on scroll
@@ -1122,26 +1124,6 @@
                     }
                 });
             });
-            
-            // Handle waitlist form submission
-            const waitlistForm = document.getElementById('waitlist-form');
-            if (waitlistForm) {
-                waitlistForm.addEventListener('submit', function(e) {
-                    e.preventDefault();
-                    const email = document.getElementById('email').value;
-                    
-                    // You would normally send this to your backend
-                    console.log('Email submitted:', email);
-                    
-                    // Show success message
-                    waitlistForm.innerHTML = `
-                        <div class="success-message">
-                            <h3>Welcome, Initiate</h3>
-                            <p>Your application has been received. The Council will review your submission and contact you soon with further instructions on the Rituals of Contribution.</p>
-                        </div>
-                    `;
-                });
-            }
             
             // Add cosmic dust particle effect in the background
             createCosmicDust();
